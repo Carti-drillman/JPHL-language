@@ -1,0 +1,9 @@
+{
+    "name": "jphl-server",
+    "version": "1.0.0",
+    "main": "JP_server.js",
+    "bin": {
+      "JP_server": "./JP_server.js"
+    }
+  }
+  
