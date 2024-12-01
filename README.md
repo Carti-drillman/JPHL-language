@@ -9,11 +9,12 @@ Here is the example of JPHL file.
 example.jphl
 
 '''php
-    <port>8080</port>
 
-    <html>
-        <p>Hello World!</p>
-    </html>
+<port>8080</port>
+
+<html>
+    <p>Hello World!</p>
+</html>
 
 After that, run the Javascript Server called JP_server
 Here how you can run with JP_server.js
