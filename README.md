@@ -7,28 +7,19 @@ In JPHL, you can also defined your own webserver port.
 
 Here is the example of JPHL file.
 example.jphl
-'''html
-<port>8080</port>
+'''php
+    <port>8080</port>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My JPHL Page</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to JPHL</h1>
-    </header>
-    <main>
-        <section>
-            <p>This is a webpage created using JPHL with custom syntax.</p>
-            <button onclick="alert('Button clicked!')">Click me</button>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 JPHL Example</p>
-    </footer>
-</body>
-</html>
+    <html>
+        <p>Hello World!</p>
+    </html>
+
+After that, run the Javascript Server called JP_server
+Here how you can run with JP_server.js
+'''bash
+    node JP_server.js filename.jphl
+
+If you download the .exe one. You must type this in terminal.
+'''bash
+    JP_server.exe filename.jphl
+
