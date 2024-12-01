@@ -26,5 +26,5 @@ If you download the .exe one. You must type this in terminal.
 
 '''bash
 
-JP_server.exe filename.jphl
+    JP_server.exe filename.jphl
 
