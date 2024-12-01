@@ -8,7 +8,7 @@ In JPHL, you can also defined your own webserver port.
 Here is the example of JPHL file.
 example.jphl
 
-'''php
+'''
 
     <port>8080</port>
 
